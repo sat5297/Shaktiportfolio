@@ -54,7 +54,7 @@ function Home(){
                     <span>
                         <a href="https://github.com/sat5297/Airlines-Management" target="_blank" rel="noreferrer">
 
-                        <img width="20px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"/>
+                        <img width="20px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="AirlinesGit"/>
                         </a>
                     </span>
                 </div>
@@ -70,7 +70,7 @@ function Home(){
                     <span>
                         <a href="https://github.com/sat5297/amazon-clone" target="_blank" rel="noreferrer">
 
-                        <img width="20px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"/>
+                        <img width="20px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="AmazonCloneGit"/>
                         </a>
                     </span>
                 </div>
@@ -87,7 +87,7 @@ function Home(){
                     <span>
                         <a href="https://github.com/sat5297/frontendManagementSystem" target="_blank" rel="noreferrer">
 
-                        <img width="20px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"/>
+                        <img width="20px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="EMPMgmtGit"/>
                         </a>
                     </span>
                 </div>
