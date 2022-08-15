@@ -1,0 +1,30 @@
+/* .profile__image{
+    width: 297px;
+    height: 376px;
+    object-fit: contain;
+    image-resolution: 100 x 100;
+} */
+
+.header__title{
+    text-align: center;
+    justify-content: center;
+}
+
+.img{
+    margin-left: 25px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.coding__div{
+    margin: 20px;
+}
+
+.project__block{
+    width: 33%;
+    height: 190px;
+}
+
+.work__block{
+    height: 130px;
+}
