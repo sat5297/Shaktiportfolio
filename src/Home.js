@@ -33,14 +33,12 @@ function Home(){
                 <Slider>
                     {Work.map((work,index)=> {
                         return <div key={index}>
-                            <h4>{work.title}</h4>
-                            <div>
-                                <p>{work.work1}</p>
-                                <p>{work.work2}</p>
-                                <p>{work.work3}</p>
-                                <p>{work.work4}</p>
-                            </div>
-                        </div>
+                                    <h4>{work.title}</h4>
+                                    <p>{work.work1}</p>
+                                    <p>{work.work2}</p>
+                                    <p>{work.work3}</p>
+                                    <p>{work.work4}</p>
+                                </div>
                     })}
                 </Slider>
             </div>
@@ -49,19 +47,18 @@ function Home(){
                 <Slider>
                 {
                     projects.map((project,index) => {
-                        return(
-                            <div className="project__block" >
-                                <h4>{project.title}</h4>
-                                <p>{project.desc1}</p>
-                                <p>{project.desc2}</p>
-                                <p>{project.desc3}</p>
-                                <p>{project.tech}</p>
-                                <span>
-                                    <a href={project.githubLink} target="_blank" rel="noreferrer">
-                                    <img height="23px" width="23px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt={project.alt}/>
-                                    </a>
-                                </span>
-                            </div>
+                        return(<div className="project__block" >
+                                    <h4>{project.title}</h4>
+                                    <p>{project.desc1}</p>
+                                    <p>{project.desc2}</p>
+                                    <p>{project.desc3}</p>
+                                    <p>{project.tech}</p>
+                                    <span>
+                                        <a href={project.githubLink} target="_blank" rel="noreferrer">
+                                        <img height="23px" width="23px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt={project.alt}/>
+                                        </a>
+                                    </span>
+                                </div>
                         )})
                 }
                 </Slider>
