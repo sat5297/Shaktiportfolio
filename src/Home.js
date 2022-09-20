@@ -26,19 +26,19 @@ function Home(){
 
             <div className="header__title">
                 <h3 className="header__title"> Languages and Tools </h3>
-                <img className="coding__div" alt="HTML5" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-                <img className="coding__div" alt="CSS3" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-                <img className="coding__div" alt="JavaScript" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-                <img className="coding__div" alt="Java" width="40px" src="https://raw.githubusercontent.com/github/explore/main/topics/java/java.png"/>
-                <img className="coding__div" alt="Node.js" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
-                <img className="coding__div" alt="Express" width="40px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7S33Oq2FeRbyBBA6l1q8PwLVa3SzaONO-9Q&usqp=CAU" />
-                <img className="coding__div" alt="MongoDB" width="40px" src="https://github.com/mongodb/mongo/blob/master/docs/leaf.svg" />
-                <img className="coding__div" alt="SQL" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />
-                <img className="coding__div" alt="MySQL" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />
-                <img className="coding__div" alt="Git" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-                <img className="coding__div" alt="GitHub" width="40px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
-                <img className="coding__div" alt="Terminal" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
-                <img className="coding__div" alt="Linux" width="40px" src="https://raw.githubusercontent.com/github/explore/main/topics/linux/linux.png" />
+                <img className="coding__div" alt="HTML5" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+                <img className="coding__div" alt="CSS3" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+                <img className="coding__div" alt="JavaScript" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+                <img className="coding__div" alt="Java" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/main/topics/java/java.png"/>
+                <img className="coding__div" alt="Node.js" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
+                <img className="coding__div" alt="Express" height="30px" width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7S33Oq2FeRbyBBA6l1q8PwLVa3SzaONO-9Q&usqp=CAU" />
+                <img className="coding__div" alt="MongoDB" height="30px" width="30px" src="https://raw.githubusercontent.com/mongodb/mongo/master/docs/leaf.svg" />
+                <img className="coding__div" alt="SQL" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />
+                <img className="coding__div" alt="MySQL" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />
+                <img className="coding__div" alt="Git" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
+                <img className="coding__div" alt="GitHub" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
+                <img className="coding__div" alt="Terminal" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+                <img className="coding__div" alt="Linux" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/main/topics/linux/linux.png" />
             </div>
 
             <div> <h3 className="header__title"> Projects </h3> </div>  
@@ -54,7 +54,7 @@ function Home(){
                     <span>
                         <a href="https://github.com/sat5297/Airlines-Management" target="_blank" rel="noreferrer">
 
-                        <img width="20px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="AirlinesGit"/>
+                        <img height="23px" width="23px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="AirlinesGit"/>
                         </a>
                     </span>
                 </div>
@@ -70,7 +70,7 @@ function Home(){
                     <span>
                         <a href="https://github.com/sat5297/amazon-clone" target="_blank" rel="noreferrer">
 
-                        <img width="20px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="AmazonCloneGit"/>
+                        <img height="23px" width="23px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="AmazonCloneGit"/>
                         </a>
                     </span>
                 </div>
@@ -87,7 +87,7 @@ function Home(){
                     <span>
                         <a href="https://github.com/sat5297/frontendManagementSystem" target="_blank" rel="noreferrer">
 
-                        <img width="20px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="EMPMgmtGit"/>
+                        <img height="23px" width="23px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="EMPMgmtGit"/>
                         </a>
                     </span>
                 </div>
