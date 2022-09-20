@@ -1,13 +1,11 @@
-/* .profile__image{
-    width: 297px;
-    height: 376px;
-    object-fit: contain;
-    image-resolution: 100 x 100;
-} */
-
 .header__title{
     text-align: center;
     justify-content: center;
+}
+
+.slider__title{
+    text-align: left;
+    justify-content: left;
 }
 
 .img{
@@ -21,10 +19,11 @@
 }
 
 .project__block{
-    width: 33%;
-    height: 190px;
+    margin: 2px;
+    padding: 3px;
 }
 
 .work__block{
-    height: 130px;
+    padding: 3px;
+    margin: 2px;
 }

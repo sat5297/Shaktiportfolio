@@ -1,5 +1,9 @@
 import React from "react";
 import "./Home.css";
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
+import Work from "./workExperience";
+import projects from "./projects";
 
 function Home(){
     return(
@@ -25,6 +29,45 @@ function Home(){
             </div>
 
             <div className="header__title">
+                <h4> Work Experience </h4>
+                <Slider>
+                    {Work.map((work,index)=> {
+                        return <div key={index}>
+                            <h4>{work.title}</h4>
+                            <div>
+                                <p>{work.work1}</p>
+                                <p>{work.work2}</p>
+                                <p>{work.work3}</p>
+                                <p>{work.work4}</p>
+                            </div>
+                        </div>
+                    })}
+                </Slider>
+            </div>
+
+            <div className="header__title"> <h3> Projects </h3> 
+                <Slider>
+                {
+                    projects.map((project,index) => {
+                        return(
+                            <div className="project__block" >
+                                <h4>{project.title}</h4>
+                                <p>{project.desc1}</p>
+                                <p>{project.desc2}</p>
+                                <p>{project.desc3}</p>
+                                <p>{project.tech}</p>
+                                <span>
+                                    <a href={project.githubLink} target="_blank" rel="noreferrer">
+                                    <img height="23px" width="23px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt={project.alt}/>
+                                    </a>
+                                </span>
+                            </div>
+                        )})
+                }
+                </Slider>
+            </div> 
+            
+            <div className="header__title">
                 <h3 className="header__title"> Languages and Tools </h3>
                 <img className="coding__div" alt="HTML5" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
                 <img className="coding__div" alt="CSS3" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
@@ -40,87 +83,6 @@ function Home(){
                 <img className="coding__div" alt="Terminal" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
                 <img className="coding__div" alt="Linux" height="30px" width="30px" src="https://raw.githubusercontent.com/github/explore/main/topics/linux/linux.png" />
             </div>
-
-            <div> <h3 className="header__title"> Projects </h3> </div>  
-
-            <div style={{display: "flex", flexDirection: "row", margin:"10px"}}>                  
-                <div className="project__block">
-                    <h4> Flight Booking System</h4>
-                    <p> The user can book flight seat using this application.
-                        <br/>
-                        The flight details are stored in the format of files and multiple files 
-                        are created using the same rule.    
-                    </p>
-                    <span>
-                        <a href="https://github.com/sat5297/Airlines-Management" target="_blank" rel="noreferrer">
-
-                        <img height="23px" width="23px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="AirlinesGit"/>
-                        </a>
-                    </span>
-                </div>
-
-                <div className="project__block">
-                    <h4> Amazon Clone </h4>
-                    <p> This an ecommerce application. The user can buy products and search for products. 
-                        <br/>
-                        The user can make payments using STRIPE payment Gateway.
-                        <br/>
-                        The order details are stored in the Database.
-                    </p>
-                    <span>
-                        <a href="https://github.com/sat5297/amazon-clone" target="_blank" rel="noreferrer">
-
-                        <img height="23px" width="23px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="AmazonCloneGit"/>
-                        </a>
-                    </span>
-                </div>
-
-                <div className="project__block">
-                    <h4> Employee Management System </h4>
-                    <p> The tech stack includes NodeJs, ReactJS and MongoDB Atlas.<br/>
-                        It uses MVC Design pattern along with Layered architecture.<br/>
-                        Backend consists of microservices for various functionalities.<br/>
-                        Employee can login, check personal info and apply leave. <br/>
-                        The manager can see employees under him and create employee. <br/>
-                        It has also feature to search employees in organisation.<br/>
-                    </p>
-                    <span>
-                        <a href="https://github.com/sat5297/frontendManagementSystem" target="_blank" rel="noreferrer">
-
-                        <img height="23px" width="23px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="EMPMgmtGit"/>
-                        </a>
-                    </span>
-                </div>
-            </div>
-
-            <div className="header__title">
-                <div> <h4> Work Experience </h4> </div>
-                <div className="work__block">
-                    <h4> Project Engineer @ Wipro Limited </h4>
-                    <p> Lead the product and performed upgradation of the product. <br/>
-                        Worked on technologies including ReactJS, Javascript and
-                        confD for RPC calls. <br/>
-                        Performed Json RPC API testing using Postman and
-                        integrated them in the UI. <br/>
-                        Performed RCA for some of the issues and resolved them. <br/>
-                    </p>    
-                </div>
-
-                <div className="work__block">
-                    <h4> Software Developer Intern @ Get Me Roof</h4>
-                    <p> Worked on a project to use the images of real-estate
-                        property to make videos from them using FFmpeg library. <br/>
-                        The details of the property were added as subtitles.  <br/>
-                        The videos were used to help users get a better understanding
-                        of the property. <br/>
-                        Worked on a project to analyze and scrape real estate data
-                        from different websites on real time basis. <br/> Used puppeteer
-                        tool, javascript libraries and stored the data in database at
-                        backend. <br/> </p>
-                </div>
-            </div>
-            
-            
         </div>
     )
 }
